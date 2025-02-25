@@ -1,0 +1,117 @@
+{
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "git.ignoreMissingGitWarning": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.language.colorizedBracketPairs": [
+    ["(", ")"],
+    ["[", "]"],
+    ["{", "}"]
+  ],
+  "workbench.colorTheme": "Eva Dark",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "prettier.requireConfig": true,
+  "git.autofetch": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+
+  "go.formatTool": "goimports",
+  "go.coverOnSave": true,
+  "go.coverOnSingleTest": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+  },
+  "editor.tabSize": 2,
+  "[go]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[rust]":{
+    "editor.formatOnSave": true,
+  },
+  "gopls": {
+    "formatting.gofumpt": true,
+    "ui.semanticTokens": true,
+    "build.buildFlags": ["-tags", "integration"]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "git.confirmSync": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.startupEditor": "none",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.preferredAccount": "Sirichai44",
+  "editor.defaultFormatter": null,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.rulers": [
+    //   80
+    // ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "svg.preview.mode": "svg",
+  "git.ignoreRebaseWarning": true,
+}
